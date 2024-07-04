@@ -1,0 +1,30 @@
+{
+    "name": "spine-test",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "vite --open",
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "pixi-spine": "^3.1.2",
+        "pixi.js": "6.5.10"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard-with-typescript": "^43.0.1",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jsdoc": "^39.6.4",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-no-mixed-operators": "^1.1.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-unused-imports": "^3.1.0",
+        "typescript": "^5.2.2",
+        "vite": "^5.3.1"
+    }
+}

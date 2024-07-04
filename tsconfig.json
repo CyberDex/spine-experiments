@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es6",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "paths": {
+            "mini-signals": ["node_modules/resource-loader/typings/mini-signals.d.ts"],
+            "game_libs/*": ["src/ts/game_libs/src/ts/*"]
+        },
+
+        "lib": ["es2017", "dom"],
+        "baseUrl": "./"
+    }
+}
